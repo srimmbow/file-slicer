@@ -13,3 +13,11 @@ path = "src/bin/slicer.rs"
 [[bin]]
 name = "file-assembler"
 path = "src/bin/assembler.rs"
+
+[profile.release]
+codegen-units = 1
+lto = "fat"
+target-cpu = "native"
+opt-level = "z"
+panic = "abort"
+strip = "symbols"
