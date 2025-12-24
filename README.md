@@ -11,7 +11,7 @@ A lightweight Rust utility for splitting large files into smaller chunks and rea
 ### Build
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/srimmbow/file-slicer.git
 cd file-slicer
 cargo build --release
 ```
@@ -63,7 +63,3 @@ file-assembler video.mp4_sliced video_restored.mp4
 ## Dependencies
 
 - `num-format` - Number formatting for error messages
-
-## License
-
-[Add your license here]
