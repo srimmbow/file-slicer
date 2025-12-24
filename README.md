@@ -29,10 +29,10 @@ Binaries will be created in `target/release/`:
 file-slicer <chunk_size_bytes> <file> [more_files...]
 ```
 
-**Example:** Split `video.mp4` into 10MB chunks
+**Example:** Split `video.mp4` into 10MB chunks (10 million bytes)
 
 ```bash
-file-slicer 10485760 video.mp4
+file-slicer 10000000 video.mp4
 ```
 
 This creates a folder `video.mp4_sliced/` containing:
